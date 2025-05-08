@@ -1,0 +1,287 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu May 08 22:53:15 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>129 seconds (129396 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='demoblaze.tests.SignUp.SignUpWithExistingUsername()'><b>SignUpWithExistingUsername</b><br>Test class: demoblaze.tests.SignUp<br/>
+<a href="#Output-1643299824" onClick='toggleBox("Output-1643299824", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1643299824" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1643299824">
+<img src= C:\Users\cibhi\eclipse-workspace\DemoBlaze1\screenshots\SigupWithExistingDetails.png width = 200px height=200px /><br/>
+<img src= C:\Users\cibhi\eclipse-workspace\DemoBlaze1\screenshots\SignUpWithExistingUsername.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>demoblaze.tests.SignUp@673fdbce</td></tr>
+<tr>
+<td title='demoblaze.tests.Login.LoginWithValidDetails()'><b>LoginWithValidDetails</b><br>Test class: demoblaze.tests.Login<br/>
+<a href="#Output-2121491280" onClick='toggleBox("Output-2121491280", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2121491280" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2121491280">
+<img src= C:\Users\cibhi\eclipse-workspace\DemoBlaze1\screenshots\LoginWithValidDetails.png width = 200px height=200px /><br/>
+<img src= C:\Users\cibhi\eclipse-workspace\DemoBlaze1\screenshots\LoginWithValidDetails.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>demoblaze.tests.Login@30f842ca</td></tr>
+<tr>
+<td title='demoblaze.tests.Checkout.validateCheckoutWithExpiredCard()'><b>validateCheckoutWithExpiredCard</b><br>Test class: demoblaze.tests.Checkout<br/>
+<a href="#Output-123721308" onClick='toggleBox("Output-123721308", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-123721308" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-123721308">
+<img src= C:\Users\cibhi\eclipse-workspace\DemoBlaze1\screenshots\validateCheckoutWithExpiredCard.png width = 200px height=200px /><br/>
+<img src= C:\Users\cibhi\eclipse-workspace\DemoBlaze1\screenshots\validateCheckoutWithExpiredCard.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>demoblaze.tests.Checkout@4d14b6c2</td></tr>
+<tr>
+<td title='demoblaze.tests.Checkout.validateCheckoutProcess()'><b>validateCheckoutProcess</b><br>Test class: demoblaze.tests.Checkout<br/>
+<a href="#Output-718130408" onClick='toggleBox("Output-718130408", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-718130408" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-718130408">
+<img src= C:\Users\cibhi\eclipse-workspace\DemoBlaze1\screenshots\validateCheckoutProcess.png width = 200px height=200px /><br/>
+<img src= C:\Users\cibhi\eclipse-workspace\DemoBlaze1\screenshots\validateCheckoutProcess.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>demoblaze.tests.Checkout@4d14b6c2</td></tr>
+<tr>
+<td title='demoblaze.tests.Checkout.validateCheckoutWithMultipleProducts()'><b>validateCheckoutWithMultipleProducts</b><br>Test class: demoblaze.tests.Checkout<br/>
+<a href="#Output-2036497703" onClick='toggleBox("Output-2036497703", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2036497703" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2036497703">
+<img src= C:\Users\cibhi\eclipse-workspace\DemoBlaze1\screenshots\validateCheckoutWithMultipleProducts.png width = 200px height=200px /><br/>
+<img src= C:\Users\cibhi\eclipse-workspace\DemoBlaze1\screenshots\validateCheckoutWithMultipleProducts.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>demoblaze.tests.Checkout@4d14b6c2</td></tr>
+<tr>
+<td title='demoblaze.tests.SignUp.SignUpWithEmptyFields()'><b>SignUpWithEmptyFields</b><br>Test class: demoblaze.tests.SignUp<br/>
+<a href="#Output-1238339624" onClick='toggleBox("Output-1238339624", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1238339624" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1238339624">
+<img src= C:\Users\cibhi\eclipse-workspace\DemoBlaze1\screenshots\SigupWithEmptyDetails.png width = 200px height=200px /><br/>
+<img src= C:\Users\cibhi\eclipse-workspace\DemoBlaze1\screenshots\SignUpWithEmptyFields.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>demoblaze.tests.SignUp@673fdbce</td></tr>
+<tr>
+<td title='demoblaze.tests.Login.LoginWithEmptyEmail()'><b>LoginWithEmptyEmail</b><br>Test class: demoblaze.tests.Login<br/>
+<a href="#Output-2125346660" onClick='toggleBox("Output-2125346660", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2125346660" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2125346660">
+<img src= C:\Users\cibhi\eclipse-workspace\DemoBlaze1\screenshots\LoginWithEmptyEmail.png width = 200px height=200px /><br/>
+<img src= C:\Users\cibhi\eclipse-workspace\DemoBlaze1\screenshots\LoginWithEmptyEmail.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>demoblaze.tests.Login@30f842ca</td></tr>
+<tr>
+<td title='demoblaze.tests.SignUp.SignUpWithValidDetails()'><b>SignUpWithValidDetails</b><br>Test class: demoblaze.tests.SignUp<br/>
+<a href="#Output-1814908102" onClick='toggleBox("Output-1814908102", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1814908102" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1814908102">
+<img src= C:\Users\cibhi\eclipse-workspace\DemoBlaze1\screenshots\SignUpWithValidDetails.png width = 200px height=200px /><br/>
+<img src= C:\Users\cibhi\eclipse-workspace\DemoBlaze1\screenshots\SignUpWithValidDetails.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>demoblaze.tests.SignUp@673fdbce</td></tr>
+<tr>
+<td title='demoblaze.tests.ShoppingCart.addMultipleProductsToCart()'><b>addMultipleProductsToCart</b><br>Test class: demoblaze.tests.ShoppingCart<br/>
+<a href="#Output-1961667779" onClick='toggleBox("Output-1961667779", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1961667779" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1961667779">
+<img src= C:\Users\cibhi\eclipse-workspace\DemoBlaze1\screenshots\addMultipleProductsToCart.png width = 200px height=200px /><br/>
+<img src= C:\Users\cibhi\eclipse-workspace\DemoBlaze1\screenshots\addMultipleProductsToCart.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>demoblaze.tests.ShoppingCart@69c81773</td></tr>
+<tr>
+<td title='demoblaze.tests.SignUp.SignUpWithEmptyPassword()'><b>SignUpWithEmptyPassword</b><br>Test class: demoblaze.tests.SignUp<br/>
+<a href="#Output-1470772251" onClick='toggleBox("Output-1470772251", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1470772251" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1470772251">
+<img src= C:\Users\cibhi\eclipse-workspace\DemoBlaze1\screenshots\SigupWithEmptyPassword.png width = 200px height=200px /><br/>
+<img src= C:\Users\cibhi\eclipse-workspace\DemoBlaze1\screenshots\SignUpWithEmptyPassword.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>demoblaze.tests.SignUp@673fdbce</td></tr>
+<tr>
+<td title='demoblaze.tests.ShoppingCart.removeProductFromCart()'><b>removeProductFromCart</b><br>Test class: demoblaze.tests.ShoppingCart<br/>
+<a href="#Output-2074826904" onClick='toggleBox("Output-2074826904", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2074826904" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2074826904">
+<img src= C:\Users\cibhi\eclipse-workspace\DemoBlaze1\screenshots\removeProductFromCart.png width = 200px height=200px /><br/>
+<img src= C:\Users\cibhi\eclipse-workspace\DemoBlaze1\screenshots\removeProductFromCart.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>demoblaze.tests.ShoppingCart@69c81773</td></tr>
+<tr>
+<td title='demoblaze.tests.Checkout.validateCheckoutWithInvalidCard()'><b>validateCheckoutWithInvalidCard</b><br>Test class: demoblaze.tests.Checkout<br/>
+<a href="#Output-1638051511" onClick='toggleBox("Output-1638051511", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1638051511" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1638051511">
+<img src= C:\Users\cibhi\eclipse-workspace\DemoBlaze1\screenshots\validateCheckoutWithInvalidCard.png width = 200px height=200px /><br/>
+<img src= C:\Users\cibhi\eclipse-workspace\DemoBlaze1\screenshots\validateCheckoutWithInvalidCard.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>demoblaze.tests.Checkout@4d14b6c2</td></tr>
+<tr>
+<td title='demoblaze.tests.Login.LoginWithInvalidPassword()'><b>LoginWithInvalidPassword</b><br>Test class: demoblaze.tests.Login<br/>
+<a href="#Output-564944564" onClick='toggleBox("Output-564944564", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-564944564" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-564944564">
+<img src= C:\Users\cibhi\eclipse-workspace\DemoBlaze1\screenshots\LoginWithInValidDetails.png width = 200px height=200px /><br/>
+<img src= C:\Users\cibhi\eclipse-workspace\DemoBlaze1\screenshots\LoginWithInvalidPassword.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>demoblaze.tests.Login@30f842ca</td></tr>
+<tr>
+<td title='demoblaze.tests.Checkout.validateCheckoutWithoutDetails()'><b>validateCheckoutWithoutDetails</b><br>Test class: demoblaze.tests.Checkout<br/>
+<a href="#Output-116994272" onClick='toggleBox("Output-116994272", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-116994272" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-116994272">
+<img src= C:\Users\cibhi\eclipse-workspace\DemoBlaze1\screenshots\validateCheckoutWithoutProcess.png width = 200px height=200px /><br/>
+<img src= C:\Users\cibhi\eclipse-workspace\DemoBlaze1\screenshots\validateCheckoutWithoutDetails.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>demoblaze.tests.Checkout@4d14b6c2</td></tr>
+<tr>
+<td title='demoblaze.tests.SignUp.SignUpWithEmptyUsername()'><b>SignUpWithEmptyUsername</b><br>Test class: demoblaze.tests.SignUp<br/>
+<a href="#Output-1585711807" onClick='toggleBox("Output-1585711807", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1585711807" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1585711807">
+<img src= C:\Users\cibhi\eclipse-workspace\DemoBlaze1\screenshots\SigupWithEmptyUsername.png width = 200px height=200px /><br/>
+<img src= C:\Users\cibhi\eclipse-workspace\DemoBlaze1\screenshots\SignUpWithEmptyUsername.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>demoblaze.tests.SignUp@673fdbce</td></tr>
+<tr>
+<td title='demoblaze.tests.ShoppingCart.validateAddToCartWithoutLogin()'><b>validateAddToCartWithoutLogin</b><br>Test class: demoblaze.tests.ShoppingCart<br/>
+<a href="#Output-1377546660" onClick='toggleBox("Output-1377546660", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1377546660" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1377546660">
+<img src= C:\Users\cibhi\eclipse-workspace\DemoBlaze1\screenshots\validateAddToCartWithoutLogin.png width = 200px height=200px /><br/>
+<img src= C:\Users\cibhi\eclipse-workspace\DemoBlaze1\screenshots\validateAddToCartWithoutLogin.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>demoblaze.tests.ShoppingCart@69c81773</td></tr>
+</table><p>
+</body>
+</html>

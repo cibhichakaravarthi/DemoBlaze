@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="demoblaze.tests.Login">
+        <methods>
+          <include name="LoginWithInvalidPassword"/>
+          <include name="initializeDriver"/>
+          <include name="configAfterMethod"/>
+        </methods>
+      </class> <!-- demoblaze.tests.Login -->
+      <class name="demoblaze.tests.Checkout">
+        <methods>
+          <include name="validateCheckoutWithoutDetails"/>
+          <include name="validateCheckoutWithExpiredCard"/>
+          <include name="initializeDriver"/>
+          <include name="configAfterMethod"/>
+          <include name="validateCheckoutWithInvalidCard"/>
+        </methods>
+      </class> <!-- demoblaze.tests.Checkout -->
+      <class name="demoblaze.tests.ShoppingCart">
+        <methods>
+          <include name="validateAddToCartWithoutLogin"/>
+          <include name="initializeDriver"/>
+          <include name="configAfterMethod"/>
+        </methods>
+      </class> <!-- demoblaze.tests.ShoppingCart -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
